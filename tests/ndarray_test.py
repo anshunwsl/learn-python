@@ -31,3 +31,19 @@ if __name__ == "__main__":
 
     x_data = np.empty([3, 3], dtype=int)
     print(x_data)
+
+    data_one = np.arange(10, 20, 2)
+
+    print(data_one)
+
+    data_two = np.arange(10)
+
+    print(data_two)
+
+    print("slice data is ")
+    slice_data = slice(1, 5, 2)
+    print(data_two[slice_data])
+
+    # 分块语法
+    # start:stop:step
+    print(data_two[1:6:2])
